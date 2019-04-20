@@ -1,0 +1,25 @@
+#mysub1, #mysub5{
+    width: 50%;
+}
+#mysub3 *, #mysub4 *{
+    color: blue;
+}
+#mysub3{
+    border: 5px;
+    border-style: ridge;
+    margin-top:20em;  
+    padding: 2em;  
+    /**position: absolute;/**/
+}
+.myclass a{
+    color:green;
+}
+* {
+    margin:0em;
+    color:red;  
+}
+#mysub3{
+    border: 0em;
+    border-style: none;
+    margin-top:0em;  
+}

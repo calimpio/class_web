@@ -1,0 +1,59 @@
+
+/**style*/
+*{
+    border:1px;
+    border-style:  solid;
+}
+
+body{
+    margin: 0;
+}
+
+.row .col_12, .row .col_4, .row .col_8,.row .col_2{
+    float: left;
+}
+
+.col_12{
+
+}
+
+.col_2{
+    width: 16.5%;
+}
+.col_4{
+    width: 33%;
+}
+.col_8{
+    width: 66%;
+}
+
+/**events*/
+.col_2:active{
+    background-color: aquamarine;
+}
+
+.row .col_12:nth-child(1){
+    background-color: yellow;
+}
+
+.col_4{
+    background-color: red;
+}
+
+.col_4:hover {
+    background-color: brown;
+}
+/**responsive*/
+
+@media(max-width:600px){
+    .col_2{
+        width: 100%;
+    }
+    .col_4{
+        width: 100%;
+    }
+    .col_8{
+        width: 100%;
+    }
+    
+}

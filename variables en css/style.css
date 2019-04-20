@@ -1,0 +1,96 @@
+
+/*variables*/
+:root{
+    /*colors*/
+    --primary_color: #ef5350;
+    --primary_text_color: #ffebee;
+    --subprimary_color:#f48fb1;
+        
+    --secundary_color:#880e4f;
+    --secundary_text_color: #8e24aa;    
+    --subsecundary_color: #f8bbd0;
+    /*font-familys*/
+    --primary_font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*estilos*/
+body {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+}
+
+nav *, .nav *{
+    color: var(--primary_text_color);
+}
+.container h2, section h2{
+    color:var(--secundary_color);
+}
+
+section h3, section h4{
+    color: var(--subsecundary_color);
+}
+
+
+nav b{
+    color: var(--secundary_color);
+}
+
+nav h1{
+    font-family: var(--primary_font-family);
+}
+
+span {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav, nav {
+    background-color:var(--primary_color);
+    float: left;
+    width: 100%; 
+
+    padding-left: 4%; 
+    padding-right: 4%;          
+    
+    border-bottom: 5px;
+    border-bottom-style: outset;    
+}
+
+.container, section {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.row .c_4 {
+    float: left;
+}
+
+ul li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 0.5em;
+    font-size: 0.8em;
+}
+
+.c_4 {
+    width: 33%;
+}
+
+/*responsive styles*/
+@media (max-width: 500px) {
+    .c_4 {
+        width: 100%;
+        font-size: 1em;
+    }
+}

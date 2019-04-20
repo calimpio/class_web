@@ -1,0 +1,21 @@
+* {
+    color:darkblue ;
+}
+
+p{
+    color:yellow;
+    font-size: 1em;
+}
+
+li{
+    font-size: 1.5em;
+}
+
+
+li ol li{
+    color:brown;
+}
+
+.verde{
+    color:green;
+}
